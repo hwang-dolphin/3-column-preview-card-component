@@ -1,0 +1,198 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+body
+{
+	background-color: hsl(0, 0%, 95%);
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+}
+
+.container
+{
+	position: absolute;
+	background-color: pink;
+	
+	width: 64vw;
+	height: 58vh;
+	
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	border-radius: 7px;
+}
+
+
+.sedans
+{
+	background-color: hsl(31,77%,52%);
+	width: 33.333%;
+	height: 100%;
+
+	display: inline-block;
+
+	border-radius: 7px 0 0 7px;
+	float: left;
+
+	padding: 35px;
+	position: relative;
+}
+
+
+.suvs
+{
+	background-color: hsl(184, 100%, 22%);
+	width: 33.333%;
+	height: 100%;
+
+	display: inline-block;
+
+	float: left;
+
+	padding: 35px;
+	position: relative;
+}
+
+.luxury
+{
+	background-color: hsl(179, 100%, 13%);
+	width: 33.333%;
+	height: 100%;
+
+	display: inline-block;
+
+	border-radius: 0 7px 7px 0;	
+	float: left;
+
+	padding: 35px;
+	position: relative;
+}
+
+.titles
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-weight: 700;
+	color: hsl(0, 0%, 95%);
+
+	font-family: 'Big Shoulders Display', cursive;
+
+	font-size: 30px;
+}
+
+.body-paragraph
+{
+	/*	font-weight: 400; */
+	color: hsla(0, 0%, 100%, 0.75);
+
+	font-family: 'Lexend Deca', sans-serif;
+
+	font-size: 13px;
+
+	line-height: 1.6;
+}
+
+.icons
+{
+	width: auto%;
+	height: auto%;	
+}
+
+.button-sedans
+{
+	float: bottom;
+	background-color: hsl(0, 0%, 95%);
+	position: absolute;
+	bottom: 35px;
+
+	height: 40px;
+	width: 110px;
+	border-radius: 25px;
+	border: solid 2px;
+	color: hsl(31,77%,52%); 
+}
+
+.button-sedans:hover
+{
+	cursor: pointer;
+}
+
+.button-sedans:focus
+{
+	outline-style: none;
+}
+
+.button-sedans:active
+{
+	color: hsl(0, 0%, 95%);
+	background-color: hsl(31,77%,52%);
+}
+
+.button-suvs
+{
+     float: bottom;
+     background-color: hsl(0, 0%, 95%);
+     position: absolute;
+     bottom: 35px;
+ 
+     height: 40px;
+     width: 110px;
+     border-radius: 25px;
+     border: solid 2px;
+	 color: hsl(184, 100%, 22%);
+}
+
+.button-suvs:hover
+{
+	cursor: pointer;
+}
+
+.button-suvs:focus
+{
+	outline-style: none;
+}
+
+.button-suvs:active
+{
+	color: hsl(0, 0%, 95%);
+	background-color: hsl(184, 100%, 22%);
+}
+
+.button-luxury
+{
+     float: bottom;
+     background-color: hsl(0, 0%, 95%);
+     position: absolute;
+     bottom: 35px;
+ 
+     height: 40px;
+     width: 110px;
+     border-radius: 25px;
+     border: solid 2px;
+	color: hsl(179, 100%, 13%);
+}
+
+.button-luxury:hover
+{
+	cursor: pointer;
+}
+ 
+.button-luxury:focus
+{
+	outline-style: none;
+}
+ 
+.button-luxury:active
+{
+     color: hsl(0, 0%, 95%);
+     background-color: hsl(179, 100%, 13%);
+}
+
