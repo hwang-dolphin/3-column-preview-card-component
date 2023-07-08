@@ -1,2 +1,3 @@
 # 3-column-preview-card-component
-Initial desktop version
+
+https://hwang-dolphin.github.io/3-column-preview-card-component/
